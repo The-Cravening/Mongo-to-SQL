@@ -1,0 +1,17 @@
+</div>
+<footer class="footer">
+  <div class="container text-center">
+    <made-with-love name="Lucid-Dev" url="https://github.com/Lucid-Dev/"></made-with-love>
+  </div>
+</footer>
+<script src="{{ static_url('bower_components/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ static_url('bower_components/webcomponentsjs/webcomponents.min.js') }}"></script>
+<script src="{{ static_url('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script>
+  $('.copy-btn').click(function() {
+    $('textarea').select();
+    document.execCommand('copy');
+  });
+</script>
+</body>
+</html>

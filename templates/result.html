@@ -1,0 +1,15 @@
+{% include header.html %}
+<div class="row">
+  <div class="col-md-12">
+    <div class="page-header">
+      <h1>SQL Result</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <textarea rows="20" class="form-control">{{ sql }}</textarea>
+    <button class="btn btn-primary copy-btn">Copy SQL</button>
+  </div>
+</div>
+{% include footer.html %}
